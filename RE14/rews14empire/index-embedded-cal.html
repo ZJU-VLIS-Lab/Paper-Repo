@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+  <meta charset="UTF-8" /> 
+  
+  <title>Calendar View</title>
+
+  <style type="text/css">
+     body {
+       font-family: Helvetica, Arial, sans-serif;
+       color: #444444;
+       background: transparent;
+     }
+     a, a:link, a:visited {
+       text-decoration: none;
+       color: #285A86;
+     }
+     a:hover {
+       color: #1A3D5C;
+       cursor: pointer;
+     }
+     a, img {
+       border-style: none;
+     }
+     h4 {
+       font-size: 1.2em;
+     }
+  </style>
+
+</head>
+<body>
+  <div style="text-align:center;" >
+    <a href="http://webhotel.bth.se/re14/" >
+      <img src="../images/rews14-header.png" 
+           alt="RE&#039;14 Workshop - August 25-29, 2014, Karlskrona, Sweden"
+           id="logo" />
+    </a>
+  </div>
+
+<script type="text/javascript">
+  function toggle(pId) {
+    var e=document.getElementById(pId);
+    if (!e) return;
+    if (e.style.display == "none") {
+      e.style.display = "block"
+    } else {
+      e.style.display = "none"
+    }
+    return;
+  }
+</script>
+<hr style="width: 100%; height: 2px;" />
+<table style="text-align: left; vertical-align: middle; width: 100%; border-spacing: 0;">
+  <tr>
+    <td>
+      <h1 style="margin-top: 7px; margin-bottom: 7px;">Calendar View</h1>
+    </td>
+    <td style="vertical-align: middle; text-align: right;">
+      <small> <a title="Table of Contents"  href="index.html"       >Contents</a> - 
+              <a title="ToC with Abstracts" href="index-all.html"   >Abstracts</a> - 
+              <a title="Author Index"       href="index-auth.html"  >Authors</a> 
+        <br /> 
+      </small> 
+    </td>
+  </tr>
+</table>
+<!-- END HEADER -->
+<p><object id="emb" type="text/html" data="https://www.google.com/calendar/embed?title=%20&amp;mode=AGENDA&amp;dates=20140531/20140607&amp;height=600&amp;wkst=1&amp;bgcolor=%23FFFFFF&amp;src=&amp;color=%23060D5E&amp;ctz=Europe/Berlin" style="border-width: 0; width: 100%; height: 800px;"></object></p>
+<!--[if lte IE 9]><script type="text/javascript">(function(){var o=document.getElementById('emb');var i=document.createElement('iframe');i.setAttribute('src',o.getAttribute('data'));i.style.width=o.style.width;i.style.height=o.style.height;o.parentNode.replaceChild(i,o);})();</script><![endif]-->
+<!-- BEGIN FOOTER -->
+
+  </body>
+</html>
+<!-- END FOOTER -->
